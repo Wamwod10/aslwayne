@@ -1,16 +1,84 @@
-import React from 'react'
-import "./about.scss"
+import "./about.scss";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+
 
 const About = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: false });
+  }, []);
+
   return (
     <div className='about'>
-        <div className="container">
-            <div className="about__box">
-                
-            </div>
+      <div className="container">
+        <div className="about__box">
+          <h2 className="about__title">Asl Wayne (Astro)</h2>
+          <p data-aos="fade-up" className="about__txt">
+            Asl Wayne, asli Ismi Asilbek Bayjonov, 1999-yil 26-aprel kuni O'zbekistonning Xorazm viloyatining Xiva shahrida dunyoga kelgan. U yoshligida futbol bilan shug'ullangan va Paxtakor futbol akademiyasida ham ta'lim olgan. Biroq, musiqa unga tobora ko'proq yaqinlashdi va o'zining musiqa yo'lini boshlashga qaror qildi. Asl Wayne musiqani o'rganish uchun musiqa maktabiga ham qatnagan.
+          </p>
+          <p data-aos="fade-right" className="about__txt">
+            Ijodini 2020-yilda "Shamol" nomli qo'shig'i bilan boshlagan Asl Wayne tez orada O'zbekistonning eng mashhur repperlaridan biriga aylandi. Uning "G'animat", "Bugun To'ying", "Yor yonaman", "Go'zlaring" kabi qo'shiqlari keng ommaga tanildi va musiqiy karyerasini tez sur'atlarda rivojlantirdi. U Xorazmda yashaydi va qo'shiqlarida o'zining shevasini ishlatadi. Shuning uchun uning musiqasini asosan yosh avlod yaxshi ko'radi va tinglaydi. Asl Wayne qo'shiqlarida ko'pincha hayotiy mavzularni va sevgi haqida so'z yuritadi.
+          </p>
+          <p data-aos="fade-left" className="about__txt">
+            Hozirga qadar ko'plab mashhur repperlar bilan duetlar ijro etishga muvaffaq bo'lgan Asl Wayne, musiqadagi o'ziga xos uslubi va ijodi bilan O'zbekistonda alohida o'rin egalladi. Uning kiyinish stili ham o'ziga xos bo'lib, u ko'pincha maskada videolarda chiqishni yaxshi ko'radi. Bu uslub uning imidjiga yangi bir rang kiritgan va fanatlarining e'tiborini jalb qilgan.
+          </p>
+
+          <div className="about__box-img">
+            <Swiper
+              spaceBetween={10}
+              slidesPerView={4}
+              centeredSlides={true}
+              loop={true}
+              className="swiper-container"
+            >
+              <SwiperSlide>
+                <img src="/public/3.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/4.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/5.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/6.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/7.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/8.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/9.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/10.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/11.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/12.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/13.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/public/14.png" alt="" style={{ width: '300px', height: '340px' }} />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+          
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
