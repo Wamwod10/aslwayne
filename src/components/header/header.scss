@@ -1,0 +1,182 @@
+@import "/src/media.scss";
+
+.header {
+    background: url(/public/2.png) no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #00000047;
+    }
+
+    &__box {
+        z-index: 1;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 80px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: "Saira stencil one";
+        background: rgb(138, 138, 138);
+        background: linear-gradient(90deg, rgb(123, 123, 123) 0%, rgb(255, 255, 255) 100%);
+        color: transparent;
+        background-clip: text;
+        animation: bounce;
+        animation-duration: 1s;
+        text-align: center;
+
+        @include media(768) {
+            font-size: 70px;
+        }
+
+        @include media(424) {
+            font-size: 60px;
+        }
+    }
+
+    .animate__animated.animate__fadeInDown {
+        -o-animation-duration: 1500ms;
+    }
+
+    &__title-sec {
+        margin-top: 0px;
+        font-size: 55px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        animation: sec 1.5s linear;
+        text-align: center;
+
+        @include media(768) {
+            font-size: 50px;
+        }
+
+        @include media(424) {
+            font-size: 45px;
+        }
+
+        @keyframes sec {
+            0% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 0;
+            }
+
+            60% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__icon {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    &__link-box {
+        display: flex;
+        align-items: center;
+        column-gap: 75px;
+        justify-content: center;
+        margin-top: 40px;
+        animation: second 2s linear;
+
+        @include media(424) {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: stretch;
+        }
+
+        @keyframes second {
+            0% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 0;
+            }
+
+            60% {
+                opacity: 0;
+            }
+
+            80% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__link {
+        color: #fff;
+        padding: 15px 50px;
+        border: 2px solid #ededed;
+        position: relative;
+        transition: 0.3s;
+        z-index: 99;
+        font-weight: 500;
+        font-size: 18px;
+
+        &:hover {
+            color: #000;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            background-color: #ededed;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            transition: 0.4s;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            background-color: #ededed;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            transition: 0.4s;
+        }
+
+        &:hover::before {
+            width: 51%;
+        }
+
+        &:hover::after {
+            width: 50%;
+        }
+    }
+}
