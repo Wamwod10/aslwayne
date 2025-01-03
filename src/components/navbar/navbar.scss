@@ -48,11 +48,11 @@
             position: fixed; 
             z-index: 999;
             top: -50%; 
-            left: 40%; 
+            left: 50%; 
             transform: translate(-50%, -50%);
         
             &.active {
-                top: 45%; 
+                top: 50%; 
                 transition: 0.8s;
             }
         }
