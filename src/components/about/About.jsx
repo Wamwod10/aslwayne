@@ -29,11 +29,24 @@ const About = () => {
           </p>
 
           <div className="about__box-img">
-            <Swiper
+          <Swiper
               spaceBetween={10}
-              slidesPerView={4}
-              centeredSlides={true}
               loop={true}
+              centeredSlides={true}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1.5,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3, 
+                },
+                1400: {
+                  slidesPerView: 4,
+                },
+              }}
               className="swiper-container"
             >
               <SwiperSlide>
