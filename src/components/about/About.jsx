@@ -50,40 +50,40 @@ const About = () => {
               className="swiper-container"
             >
               <SwiperSlide>
-                <img src="3.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="3.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="4.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="4.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="5.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="5.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="6.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="6.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="7.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="7.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="8.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="8.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="9.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="9.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="10.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="10.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="11.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="11.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="12.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="12.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="13.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="13.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="14.png" alt="" style={{ width: '300px', height: '375px' }} />
+                <img src="14.png" alt="" style={{ width: '300px', height: '340px' }} />
               </SwiperSlide>
             </Swiper>
           </div>
