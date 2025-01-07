@@ -48,7 +48,7 @@ const Concert = () => {
                             className="swiper-container"
                         >
                             <SwiperSlide>
-                                <img src="72.png" alt="" style={{ width: '300px', height: '375px' }} />
+                                <img src="72.png" alt="" style={{ width: '300px', height: '374px' }} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src="73.png" alt="" style={{ width: '300px', height: '375px' }} />
