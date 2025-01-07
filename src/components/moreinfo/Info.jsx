@@ -2,7 +2,8 @@ import React from 'react'
 import "./info.scss"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react";
+import { useEffect} from "react";
+import { Link } from 'react-router-dom';
 
 const Info = () => {
 
@@ -37,15 +38,15 @@ const Info = () => {
                         etishning samarali usuli hisoblanadi.</p>
                 </div>
                 <div className="info__boxes">
-                    <div className="info__box-first">
+                    <Link to="https://www.youtube.com/@benyjrrr" className="info__box-first">
                         <h2 className="info__box-title">Beny Jr</h2>
-                    </div>
-                    <div className="info__box-second">
+                    </Link>
+                    <Link to="https://www.youtube.com/@MDLR1" className="info__box-second">
                         <h2 className="info__box-title">Morad</h2>
-                    </div>
-                    <div className="info__box-third">
+                    </Link>
+                    <Link to="https://www.youtube.com/@babygang1312" className="info__box-third">
                         <h2 className="info__box-title">BanyGang</h2>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

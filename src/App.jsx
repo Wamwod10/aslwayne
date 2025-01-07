@@ -3,17 +3,20 @@ import Header from "./components/header/Header"
 import Info from "./components/moreinfo/Info"
 import Music from "./components/music/Music"
 import Navbar from "./components/navbar/Navbar"
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 function App() {
 
   return (
     <>
-       <Navbar/>
-       <Header/>
-       <About/>
-       <Music/>
-       <Info/>
+      <Router basename="/">
+      <Navbar />
+      <Header />
+      <About />
+      <Music />
+      <Info />
+      </Router>
     </>
   )
 }
