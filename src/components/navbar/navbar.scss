@@ -104,7 +104,12 @@
         width: 25px;
         height: 18px;
         margin-right: 15px;
+        display: none;
         margin-top: 15px;
+        
+        @include media(768) {
+            display: block;
+        }
     }
 
     &__menu {

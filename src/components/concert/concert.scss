@@ -1,0 +1,34 @@
+@import "/src/media.scss";
+
+.concert {
+    
+    .music__title {
+        margin-bottom: 50px;
+    }
+
+    img {
+        border: 3px solid #666;
+        border-radius: 15px;
+        width: 300px;
+        height: 375px;
+
+        @include media(485) {
+            width: 250px !important;
+            height: 325px !important;
+        }
+
+        @include media(375) {
+            width: 220px !important;
+            height: 295px !important;
+        }
+
+        @include media(325) {
+            width: 200px !important;
+            height: 275px !important;
+        }
+    }
+    
+    &__box {
+        margin-top: 100px;
+    }
+}

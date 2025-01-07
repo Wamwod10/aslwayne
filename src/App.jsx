@@ -1,4 +1,5 @@
 import About from "./components/about/About"
+import Concert from "./components/concert/Concert"
 import Header from "./components/header/Header"
 import Info from "./components/moreinfo/Info"
 import Music from "./components/music/Music"
@@ -11,11 +12,12 @@ function App() {
   return (
     <>
       <Router basename="/">
-      <Navbar />
-      <Header />
-      <About />
-      <Music />
-      <Info />
+        <Navbar />
+        <Header />
+        <About />
+        <Music />
+        <Info />
+        <Concert />
       </Router>
     </>
   )

@@ -16,7 +16,7 @@ const Info = () => {
             <div className="container">
                 <div className="info__boxs">
                     <h2 className="music__title">Asl Wayne Kimlarni Eshitadi</h2>
-                    <p data-aos="fade-up" className="about__txt">Asl Wayne musiqiy yo'nalishlarida keng qamrovli
+                    <p className="about__txt">Asl Wayne musiqiy yo'nalishlarida keng qamrovli
                         va xilma-xil ta'sirlarga ega bo'lib, ayniqsa Ispaniya musiqalarini juda yaxshi
                         ko'radi. Afro yo'nalishidagi musiqalarni tinglashni ham yoqtiradi va o'zining
                         ayrim qo'shiqlarida Ispaniya minuslaridan foydalanish orqali musiqiy ifodasi
