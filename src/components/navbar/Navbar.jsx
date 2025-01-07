@@ -16,11 +16,11 @@ const Navbar = () => {
           <a href="" className="navbar__logo"><img src="1.svg" alt="" /></a>
 
           <ul className={`navbar__list ${menuOpen ? 'active' : ''}`}>
-            <li className="navbar__item"><a href="" className="navbar__link">Asl wayne</a></li>
-            <li className="navbar__item"><a href="" className="navbar__link">Malumot</a></li>
-            <li className="navbar__item"><a href="" className="navbar__link">Musiqa</a></li>
-            <li className="navbar__item"><a href="" className="navbar__link">Konsert</a></li>
-            <li className="navbar__item"><a href="" className="navbar__link">Ijtimoiy Tarmoqlar</a></li>
+            <li className="navbar__item"><a href="#" className="navbar__link">Asl wayne</a></li>
+            <li className="navbar__item"><a href="#About" className="navbar__link">Malumot</a></li>
+            <li className="navbar__item"><a href="#Music" className="navbar__link">Musiqa</a></li>
+            <li className="navbar__item"><a href="#Concert" className="navbar__link">Konsert</a></li>
+            <li className="navbar__item"><a href="#Social" className="navbar__link">Ijtimoiy Tarmoqlar</a></li>
           </ul>
 
           <div className={`navbar__menu-box ${menuOpen ? 'open' : ''}`}>

@@ -68,7 +68,7 @@ const Music = () => {
 
 
     return (
-        <div className='music'>
+        <div id='Music' className='music'>
             <div className="container">
                 <h2 className="music__title">Asl Waynening Barcha Qo'shiqlari</h2>
                 <div className="music__box">

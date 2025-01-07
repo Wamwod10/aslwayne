@@ -14,7 +14,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className='about'>
+    <div id="About" className='about'>
       <div className="container">
         <div className="about__box">
           <h2 className="about__title">Asl Wayne (Astro)</h2>

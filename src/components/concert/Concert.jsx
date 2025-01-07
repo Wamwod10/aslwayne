@@ -13,7 +13,7 @@ const Concert = () => {
     }, []);
 
     return (
-        <div className='concert'>
+        <div id='Concert' className='concert'>
             <div className="container">
                 <h2 className="music__title">Asl Wayne Yirik Konsertlar va Unutilmas Onlar</h2>
                 <p data-aos="fade-up" className="about__txt">

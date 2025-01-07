@@ -1,0 +1,206 @@
+@import "/src/media.scss";
+
+.social {
+    color: #ffffff;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+
+    .music__title {
+        margin-bottom: 50px;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    &__grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &__card {
+        width: 280px;
+        background: #1a1a1a;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+        }
+
+        .social__logo {
+            font-size: 40px;
+            margin-bottom: 0px;
+            padding: 10px;
+            border-radius: 50%;
+            transition: 0.3s ease;
+
+            span {
+                font-size: inherit;
+            }
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.18rem;
+            color: #e4e4e4;
+            margin-top: 10px;
+        }
+    }
+
+    /* Premium kanal dizayni */
+    .premium__section {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .premium__card {
+        margin-left: 15px;
+        margin-right: 15px;
+        max-width: 350px;
+        background: #333333;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 1);
+        }
+
+        .premium__logo {
+            font-size: 45px;
+            color: #0088CC;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #bbb;
+            margin-top: 10px;
+        }
+
+        .premium__info {
+            margin-top: 20px;
+            color: #ccc;
+
+            .premium__admin {
+                font-weight: bold;
+                margin-bottom: 10px;
+                transition: 0.4s;
+
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+
+            .premium__description {
+                font-size: 1.1rem;
+                font-style: italic;
+            }
+        }
+    }
+
+    .music__news {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .music__news-card {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 420px;
+        background: linear-gradient(135deg, #ff0000, #f5a623);
+        /* Yandex ranglari */
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.9);
+        }
+
+        .music__news-logo {
+            font-size: 60px;
+            color: white;
+            margin-bottom: 20px;
+            // background: #ffdd00;
+            padding: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+
+            @include media(400) {
+                font-size: 1.6rem;
+            }
+
+            @include media(370) {
+                font-size: 1.4rem;
+            }
+        }
+
+        .music__news-count {
+            font-size: 1.2rem;
+            color: #d7d7d7;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .music__news-info {
+            margin-top: 20px;
+            color: #f4f4f4;
+
+            .music__news-description {
+                font-size: 1.1rem;
+                font-style: italic;
+                margin-bottom: 15px;
+            }
+
+            .music__news-link {
+                font-size: 1.2rem;
+                color: #ffdd00;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #ffd500;
+                }
+            }
+        }
+    }
+
+}

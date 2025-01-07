@@ -5,7 +5,8 @@
     &__title{ 
         font-size: 35px; 
         font-weight: 650; 
-        text-align: center; 
+        text-align: center;
+        margin-top: 7%;
  
         @include media(425) { 
             font-size: 28px; 

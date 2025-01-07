@@ -1,8 +1,8 @@
 @import "/src/media.scss";
 
 .about {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    // margin-top: 5%;
+    // margin-bottom: 5%;
     overflow-y: hidden;
 
     &__title {
@@ -12,6 +12,7 @@
         font-weight: 600;
         color: rgb(204, 231, 255);
         margin-bottom: 40px;
+        margin-top: 7%;
     }
 
     &__txt {

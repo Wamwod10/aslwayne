@@ -9,6 +9,7 @@
   font-weight: 400;
   color: aliceblue;
   z-index: 0;
+  scroll-behavior: smooth;
   /* overflow-y: hidden; */
 }
 
