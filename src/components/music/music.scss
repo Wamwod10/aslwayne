@@ -1,0 +1,106 @@
+@import "/src/media.scss"; 
+ 
+.music { 
+     
+    &__title{ 
+        font-size: 35px; 
+        font-weight: 650; 
+        text-align: center; 
+ 
+        @include media(425) { 
+            font-size: 28px; 
+        } 
+    } 
+     
+    &__div { 
+        width: 400px; 
+        height: 250px; 
+        position: relative; 
+        display: flex; 
+        flex-direction: column; 
+        row-gap: 20px; 
+        align-items: center; 
+        justify-content: center; 
+        border: 3px solid #a6a6a6; 
+         
+        &::before { 
+            position: absolute; 
+            content: ''; 
+            width: 100%; 
+            height: 100%; 
+            background: #00000079; 
+        } 
+ 
+        &:hover { 
+            cursor: pointer; 
+        } 
+ 
+        &:hover .music__link { 
+            animation: music 0.3s linear infinite alternate; 
+ 
+            @keyframes music { 
+                from { 
+                    transform: scale(1.0); 
+                } to { 
+                    transform: scale(1.13); 
+                } 
+            } 
+        } 
+ 
+        @include media(400) { 
+            width: 380px; 
+            height: 230px; 
+        } 
+ 
+        @include media(385) { 
+            width: 350px; 
+            height: 200px; 
+        } 
+    } 
+     
+    &__box { 
+        display: flex; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        justify-content: start; 
+        gap: 30px; 
+        margin-top: 100px; 
+ 
+        @include media(768) { 
+            margin-top: 50px; 
+        } 
+
+        @include media(1260) {
+            display: flex;
+            justify-content: center;
+        }
+    } 
+     
+    &__link { 
+        font-size: 25px; 
+        font-weight: 700; 
+ 
+        @include media(375) { 
+            font-size: 20px; 
+        } 
+    } 
+ 
+    &__text { 
+        max-width: 100%; 
+        font-size: 23px; 
+        margin-top: 50px; 
+        text-align: center; 
+        color: #a6a6a6; 
+        line-height: 32px; 
+        padding: 10px; 
+ 
+        span { 
+            color: #fff; 
+            font-weight: 600; 
+        } 
+ 
+        @include media(768) { 
+            font-size: 18px; 
+        } 
+    } 
+}
