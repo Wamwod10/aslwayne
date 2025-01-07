@@ -3,6 +3,7 @@ import "./music.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 const Music = () => {
 
@@ -72,9 +73,9 @@ const Music = () => {
                 <h2 className="music__title">Asl Waynening Barcha Qo'shiqlari</h2>
                 <div className="music__box">
                     {data.map((item) => (
-                        <div data-aos="zoom-in" key={item.id} className="music__div" style={{ backgroundImage: `url(${item.image})` }}>
-                            <a className="music__link" href={item.link} target="_blank" rel="noopener noreferrer"> {item.text} </a>
-                        </div>
+                        <Link target="_blank" to={item.link} data-aos="zoom-in" key={item.id} className="music__div" style={{ backgroundImage: `url(${item.image})` }}>
+                            <a className="music__link" href="" target="_blank" rel="noopener noreferrer"> {item.text} </a>
+                        </Link>
                     ))}
                 </div>
                 <p className="music__text">Shunga o'xshash eski va boshqa qo'shiqlarini eshitishni istasangiz <span>Aslwayne rasmiy telegram kanalidan</span> barcha treklarni topishingiz mumkin</p>

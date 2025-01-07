@@ -111,7 +111,7 @@
         @include media(768) {
             display: block;
         }
-
+    
         &::before {
             content: '';
             position: absolute;
@@ -120,9 +120,8 @@
             background: #fff;
             top: 8px;
             transition: 0.5s ease-in-out;
-
         }
-
+    
         &::after {
             content: '';
             position: absolute;
@@ -132,19 +131,21 @@
             top: -8px;
             transition: 0.5s ease-in-out;
         }
-
+    
+        // O'zgartirishlar bu yerda
         &.open {
             height: 0;
-
+    
             &::before {
                 top: 0;
-                transform: rotate(230deg);
+                transform: rotate(230deg); // Yangi ochish animatsiyasi
             }
-
+    
             &::after {
                 top: 0;
-                transform: rotate(-230deg);
+                transform: rotate(-230deg); // Yangi yopish animatsiyasi
             }
         }
     }
+    
 }
