@@ -22,8 +22,11 @@ const Navbar = () => {
             <li className="navbar__item"><a href="" className="navbar__link">Konsert</a></li>
             <li className="navbar__item"><a href="" className="navbar__link">Ijtimoiy Tarmoqlar</a></li>
           </ul>
-          
-          <div className={`navbar__menu ${menuOpen ? 'open' : ''}`} onClick={handleToggleMenu}></div>
+
+          <div className={`navbar__menu-box ${menuOpen ? 'open' : ''}`}>
+            <div className={`navbar__menu ${menuOpen ? 'open' : ''}`} onClick={handleToggleMenu}></div>
+          </div>
+
         </div>
       </div>
     </div>
