@@ -15,7 +15,7 @@ const Concert = () => {
     return (
         <div className='concert'>
             <div className="container">
-                <h2 className="music__title">Asl Wayne Yirik Konsertlar va</h2>
+                <h2 className="music__title">Asl Wayne Yirik Konsertlar va Unutilmas Onlar</h2>
                 <p data-aos="fade-up" className="about__txt">
                     Asl Wayne, 2023 va 2024-yillarda O'zbekistondagi eng yirik musiqiy tadbirlarda ishtirok etib, o'zining noyob va energiyaga to'la ijodi bilan muxlislarini hayratda qoldirdi. 2023-yil va 2024-yilning eng yirik musiqiy voqealaridan biri bo'lib, Asl Wayne Humo Festda qatnashdi. Humo Arena sahnasida o'tgan ushbu tadbirda, O'zbekistondagi eng mashhur reperlar ishtirok etishdi. Tadbirda 8000 nafar tomoshabin to'plandi, ulardan ko'pchiligi Asl Wayne'nin eng sodiq va ko'plab hit qo'shiqlarini yod bilgan muxlislar edi. Bu konsertda, muxlislar har bir qo'shiqni birgalikda baland ovozda aytib, sahnadagi ijodkor bilan jonli aloqada bo'lishdi. Asl Wayne ning konsertlari, musiqiy ifodalarning kuchini yanada kuchaytirgan, haqiqiy san'atkor va muxlislar o'rtasidagi mustahkam bog'lanishni yaratgan. Ushbu konsertlar 2025-yilda ham davom etishi mumkinligi haqida ma'lumotlar mavjud.
                 </p>

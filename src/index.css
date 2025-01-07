@@ -9,10 +9,12 @@
   font-weight: 400;
   color: aliceblue;
   z-index: 0;
+  /* overflow-y: hidden; */
 }
 
 body {
   background: #1b1b1b;
+  /* overflow-y: hidden; */
 }
 
 a{

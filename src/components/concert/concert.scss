@@ -1,6 +1,7 @@
 @import "/src/media.scss";
 
 .concert {
+    overflow-y: hidden;
     
     .music__title {
         margin-bottom: 50px;
