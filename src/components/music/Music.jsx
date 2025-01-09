@@ -74,7 +74,7 @@ const Music = () => {
                 <div className="music__box">
                     {data.map((item) => (
                         <Link target="_blank" to={item.link} data-aos="zoom-in" key={item.id} className="music__div" style={{ backgroundImage: `url(${item.image})` }}>
-                            <a className="music__link" href="" target="_blank" rel="noopener noreferrer"> {item.text} </a>
+                            <Link to={item.link} className="music__link" href="" target="_blank" rel="noopener noreferrer"> {item.text} </Link>
                         </Link>
                     ))}
                 </div>
