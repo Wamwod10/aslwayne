@@ -69,6 +69,8 @@ const styles = {
   },
   loader: {
     textAlign: "center",
+    fontFamily: "Inter",
+    fontSize: "23px",
   },
 };
 
