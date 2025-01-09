@@ -33,7 +33,7 @@ function App() {
     return (
       <div style={styles.loaderContainer}>
         <div style={styles.loader}>
-          <h1>Loading {progress}%</h1>
+          <h1> {progress} %</h1>
         </div>
       </div>
     );
@@ -62,7 +62,9 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     height: "100vh",
-    backgroundColor: "#000",
+    // backgroundColor: "#000",
+    background: 'rgb(41,41,41)',
+    background: 'linear-gradient(188deg, rgba(41,41,41,1) 0%, rgba(31,31,31,1) 100%)',
     color: "#fff",
   },
   loader: {
