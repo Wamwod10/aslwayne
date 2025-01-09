@@ -12,7 +12,7 @@ const Music = () => {
     }, []);
 
     const data = [
-        { id: 1, image: '68.png', link: 'https://www.youtube.com/watch?v=Jsf599HLruc', text: "So'y Mani (ft Ruxsora)" },
+        { id: 1, image: '68.png', link: '#!', text: "So'y Mani (ft Ruxsora)" },
         { id: 1, image: '15.png', link: 'https://www.youtube.com/watch?v=Jsf599HLruc', text: 'Yetar (ft Qahramon.R)' },
         { id: 2, image: '16.png', link: 'https://www.youtube.com/watch?v=6j5GxGgv2oc', text: "Yaratadi Yo'l (ft Massa)" },
         { id: 3, image: '17.png', link: 'https://www.youtube.com/watch?v=ILdsOui85vc', text: 'OldAsl 2' },
