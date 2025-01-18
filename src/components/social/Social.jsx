@@ -15,7 +15,7 @@ const Social = () => {
     },
     {
       name: 'Instagram',
-      count: '520 000+ Obunachi',
+      count: '525 000+ Obunachi',
       color: '#833AB4',
       gradient: 'linear-gradient(135deg, #833AB4, #FD1D1D, #F56040, #FFC837)',
       logo: <FaInstagram />,
@@ -23,7 +23,7 @@ const Social = () => {
     },
     {
       name: 'Telegram',
-      count: '83 500+ Obunachi',
+      count: '86 200+ Obunachi',
       color: '#0088CC',
       gradient: 'linear-gradient(135deg, #0088CC, #1FA9FF)',
       logo: <FaTelegram />,
@@ -31,7 +31,7 @@ const Social = () => {
     },
     {
       name: 'Spotify',
-      count: '21 000+ Oylik Tinglovchilar',
+      count: '22 100+ Oylik Tinglovchilar',
       color: '#1DB954',
       gradient: 'linear-gradient(135deg, #1DB954, #45E78D)',
       logo: <FaSpotify />,
@@ -61,7 +61,7 @@ const Social = () => {
             <FaTelegram />
           </div>
           <h3 className="premium__name">Telegram Premium Kanal</h3>
-          <p className="premium__count">600+ Premium Obunachi</p>
+          <p className="premium__count">620+ Premium Obunachi</p>
           <div className="premium__info">
             <Link to="https://t.me/ASLPREMIUMADMIN" className="premium__admin">Admin: @ASLPREMIUMADMIN</Link>
             <p className="premium__description">Premium Kanal: Sizning musiqiy olamingizni boshqalar bilmasdan oldin kashf eting!</p>
@@ -74,7 +74,7 @@ const Social = () => {
           <FaMusic />
         </div>
         <h3 className="music__news-title">Yangilik - Asl Wayne Endi Yandex Musicda</h3>
-        <p className="music__news-count">43 000+ Oylik Tinglovchilar</p>
+        <p className="music__news-count">76 400+ Oylik Tinglovchilar</p>
         <div className="music__news-info">
           <p className="music__news-description">Asl Wayne yangi musiqa va yangiliklar uchun Yandex Musicda!</p>
           <Link to="https://music.yandex.ru/artist/11215227?play=1" className="music__news-link">Hozir tinglang</Link>
