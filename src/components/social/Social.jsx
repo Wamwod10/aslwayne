@@ -7,7 +7,7 @@ const Social = () => {
   const platforms = [
     {
       name: 'YouTube',
-      count: '500 000+ Obunachi',
+      count: '505 000+ Obunachi',
       color: '#FF0000',
       gradient: 'linear-gradient(135deg, #FF0000, #FF5757)',
       logo: <FaYoutube />,
@@ -15,7 +15,7 @@ const Social = () => {
     },
     {
       name: 'Instagram',
-      count: '525 000+ Obunachi',
+      count: '530 000+ Obunachi',
       color: '#833AB4',
       gradient: 'linear-gradient(135deg, #833AB4, #FD1D1D, #F56040, #FFC837)',
       logo: <FaInstagram />,
@@ -31,7 +31,7 @@ const Social = () => {
     },
     {
       name: 'Spotify',
-      count: '22 100+ Oylik Tinglovchilar',
+      count: '22 900+ Oylik Tinglovchilar',
       color: '#1DB954',
       gradient: 'linear-gradient(135deg, #1DB954, #45E78D)',
       logo: <FaSpotify />,
@@ -74,7 +74,7 @@ const Social = () => {
           <FaMusic />
         </div>
         <h3 className="music__news-title">Yangilik - Asl Wayne Endi Yandex Musicda</h3>
-        <p className="music__news-count">76 400+ Oylik Tinglovchilar</p>
+        <p className="music__news-count">81 200+ Oylik Tinglovchilar</p>
         <div className="music__news-info">
           <p className="music__news-description">Asl Wayne yangi musiqa va yangiliklar uchun Yandex Musicda!</p>
           <Link to="https://music.yandex.ru/artist/11215227?play=1" className="music__news-link">Hozir tinglang</Link>

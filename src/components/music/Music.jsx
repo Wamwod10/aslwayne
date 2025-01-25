@@ -12,6 +12,7 @@ const Music = () => {
     }, []);
 
     const data = [
+        { id: 52, image: '86.png', link: 'https://youtu.be/B7-BunbsXu8', text: "Zimiston (ft Chab)" },
         { id: 1, image: '68.png', link: 'https://youtu.be/B7-BunbsXu8', text: "So'y Mani (ft Ruxsora)" },
         { id: 1, image: '15.png', link: 'https://www.youtube.com/watch?v=Jsf599HLruc', text: 'Yetar (ft Qahramon.R)' },
         { id: 2, image: '16.png', link: 'https://www.youtube.com/watch?v=6j5GxGgv2oc', text: "Yaratadi Yo'l (ft Massa)" },
