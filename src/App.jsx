@@ -29,15 +29,15 @@ function App() {
   }, []);
 
   // Agar yuklanish tugamagan bo'lsa, loading ekranini ko'rsatish
-  if (loading) {
-    return (
-      <div style={styles.loaderContainer}>
-        <div style={styles.loader}>
-          <h1> {progress} %</h1>
-        </div>
-      </div>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <div style={styles.loaderContainer}>
+  //       <div style={styles.loader}>
+  //         <h1> {progress} %</h1>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   // Agar yuklanish tugagan bo'lsa, asosiy tarkibni ko'rsatish
   return (
@@ -56,22 +56,22 @@ function App() {
   );
 }
 
-const styles = {
-  loaderContainer: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "100vh",
-    // backgroundColor: "#000",
-    background: 'rgb(41,41,41)',
-    background: 'linear-gradient(188deg, rgba(41,41,41,1) 0%, rgba(31,31,31,1) 100%)',
-    color: "#fff",
-  },
-  loader: {
-    textAlign: "center",
-    fontFamily: "Inter",
-    fontSize: "23px",
-  },
-};
+// const styles = {
+//   loaderContainer: {
+//     display: "flex",
+//     justifyContent: "center",
+//     alignItems: "center",
+//     height: "100vh",
+//     // backgroundColor: "#000",
+//     background: 'rgb(41,41,41)',
+//     background: 'linear-gradient(188deg, rgba(41,41,41,1) 0%, rgba(31,31,31,1) 100%)',
+//     color: "#fff",
+//   },
+//   loader: {
+//     textAlign: "center",
+//     fontFamily: "Inter",
+//     fontSize: "23px",
+//   },
+// };
 
 export default App;

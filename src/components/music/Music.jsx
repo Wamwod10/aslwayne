@@ -1,4 +1,3 @@
-import React from 'react';
 import "./music.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -12,6 +11,7 @@ const Music = () => {
     }, []);
 
     const data = [
+        { id: 53, image: '88.png', link: 'https://youtu.be/5RZNx7Um8-4?list=TLPQMjQwMTIwMjW62Bs26abVZA', text: "3 Oy" },
         { id: 52, image: '86.png', link: 'https://youtu.be/5RZNx7Um8-4?list=TLPQMjQwMTIwMjW62Bs26abVZA', text: "Zimiston (ft Chab)" },
         { id: 1, image: '68.png', link: 'https://youtu.be/B7-BunbsXu8', text: "So'y Mani (ft Ruxsora)" },
         { id: 1, image: '15.png', link: 'https://www.youtube.com/watch?v=Jsf599HLruc', text: 'Yetar (ft Qahramon.R)' },

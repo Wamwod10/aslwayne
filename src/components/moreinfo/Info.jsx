@@ -44,8 +44,8 @@ const Info = () => {
                     <Link to="https://www.youtube.com/@MDLR1" className="info__box-second">
                         <h2 className="info__box-title">Morad</h2>
                     </Link>
-                    <Link to="https://www.youtube.com/@babygang1312" className="info__box-third">
-                        <h2 className="info__box-title">BanyGang</h2>
+                    <Link to="https://www.youtube.com/@freezecorleone7615" className="info__box-third">
+                        <h2 className="info__box-title">Corleone</h2>
                     </Link>
                 </div>
             </div>
