@@ -21,9 +21,9 @@ const Info = () => {
                         ko'radi. Afro yo'nalishidagi musiqalarni tinglashni ham yoqtiradi va o'zining
                         ayrim qo'shiqlarida Ispaniya minuslaridan foydalanish orqali musiqiy ifodasi
                         va uslubini yanada boyitadi. Asl Wayne faqat Ispaniyaning eng mashhur
-                        repperlarini tinglab qolmay, balki Italiya repperlari bilan ham aloqada
+                        repperlarini tinglab qolmay, balki Fransiya repperlari bilan ham aloqada
                         bo'lib, ularning ijodini ham hurmat qiladi. Ayniqsa,Ispaniyalik <span>Beny Jr,
-                            M.D.L.R (yani Morad),</span> va Italiyalik <span>BabyGang</span> kabi repperlar uning ijodiga
+                            M.D.L.R (yani Morad),</span> va Fransiyalik <span>Freeze Corleone</span> kabi repperlar uning ijodiga
                         katta ta'sir ko'rsatgan. Ushbu san'atkorlar o'z shaharlarida va qo'shni
                         davlatlarda keng mashhurlikka erishgan, ularning musiqalari nafaqat o'z
                         mamlakatlarida, balki xalqaro miqyosda ham e'tirof etilgan. Bu repperlar
