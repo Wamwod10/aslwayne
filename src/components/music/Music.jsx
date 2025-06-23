@@ -11,7 +11,7 @@ const Music = () => {
     }, []);
 
     const data = [
-        { id: 53, image: '88.png', link: 'https://youtu.be/5RZNx7Um8-4?list=TLPQMjQwMTIwMjW62Bs26abVZA', text: "3 Oy" },
+        { id: 53, image: '88.png', link: 'https://www.youtube.com/watch?v=G3UrqaQGI24&list=RDG3UrqaQGI24&start_radio=1&pp=oAcB', text: "3 Oy" },
         { id: 52, image: '86.png', link: 'https://youtu.be/5RZNx7Um8-4?list=TLPQMjQwMTIwMjW62Bs26abVZA', text: "Zimiston (ft Chab)" },
         { id: 1, image: '68.png', link: 'https://youtu.be/B7-BunbsXu8', text: "So'y Mani (ft Ruxsora)" },
         { id: 1, image: '15.png', link: 'https://www.youtube.com/watch?v=Jsf599HLruc', text: 'Yetar (ft Qahramon.R)' },
